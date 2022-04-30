@@ -1,1 +1,1 @@
-# odin_recipes
+This repository is for getting better at html
