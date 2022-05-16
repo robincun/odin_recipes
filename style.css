@@ -1,0 +1,15 @@
+.normal{
+    background-color: palevioletred;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#ersteid{
+    color: blue;
+    font-size: 36px;
+}
+.normal2{
+    font-size: 24px;
+}
+#zweiteid{
+    font-size: 24px;
+    background-color: lightgreen;
+}
