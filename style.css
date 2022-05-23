@@ -1,30 +1,40 @@
-
+*{
+  margin: 10px;
+}
 body {
-  max-width: 600px;
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 10px;;
+}
+
+.title {
+  background: #e3f4ff;
+  border-color: white;
+  padding: 15px;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 15px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  align-self: center;
   margin: 0 auto;
-}
-
-.one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 30px;
-  margin: 20px;
-}
-
-.two {
-  background: lightblue;
-  border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 50px;
-}
-
-.three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
-  padding: 30px;
-
-  margin-left: 334px;
+  padding: 8px 24px;
 }
