@@ -1,36 +1,42 @@
 
-.header  {
-    font-family: monospace;
-    background: papayawhip;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-  }
-  
-  .logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: tomato;
-    background: white;
-    padding: 4px 32px;
-    border: 5px;
-    border-color: papayawhip;
-  }
-  
-  ul {
-    /* this removes the dots on the list items*/
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 9px;
-  }
-  
-  a {
-    font-size: 22px;
-    background: white;
-    padding: 8px;
-    /* this removes the line under the links */
-    text-decoration: none;
-  }
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  padding: 0%;
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+.inhalt{
+  display: flex;
+  flex: 1 1 auto;
+  padding: 10px;
+  justify-content: center;
+  gap: 56px;
+}
+.info{
+  max-width: 200px;
+}
