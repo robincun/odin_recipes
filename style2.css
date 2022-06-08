@@ -1,42 +1,94 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
 body {
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 32px;
-  padding: 0%;
-}
-
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
 }
-.inhalt{
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
   display: flex;
-  flex: 1 1 auto;
-  padding: 10px;
+  align-items: center;
   justify-content: center;
-  gap: 56px;
+  justify-self: flex-start;
 }
-.info{
-  max-width: 200px;
+
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  margin-left: 85px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+button.cancel {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
+.header{
+  font-weight: bold;
+  font-size: large;
+  justify-self: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.oben{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
+}
+.text{
+  padding-left: 60px;
+  margin: 15px;
+  margin-top: 5px;
+}
+.unten{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 5px;
+  margin-left: 75px;
 }
