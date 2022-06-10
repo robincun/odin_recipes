@@ -1,15 +1,19 @@
-.body{
+body{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 1000px;
   justify-content: center;
+  background-color: black;
+  align-items: center;
 }
 .header, .footer{
   background-color: #1f2937;
 }
 .middle2{
   background-color: #e5e7eb;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 ul{
   list-style: none;
@@ -18,6 +22,7 @@ ul{
   display: flex;
   flex-direction: column;
   height: 300px;
+  gap: 20px;
 }
 .h1{
   display: flex;
@@ -38,6 +43,8 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .h21{
   display: flex;
@@ -47,7 +54,7 @@ a{
 .h21 h1{
   color: white;
   margin: 5px;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: bolder;
 }
 .h21 p{
@@ -57,8 +64,8 @@ a{
 
 }
 .h2 img{
-  height: 200px;
-  width: 300px;
+  height: 150px;
+  width: 400px;
 }
 .h21 button{
   width: 100px;
@@ -70,13 +77,14 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+  background-color: white;
 }
 ul{
   display: flex;
   flex-direction: row;
   gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
 }
 li{
   text-align: center;
@@ -97,4 +105,66 @@ li{
 li p {
   margin-top: 5px;
   margin-bottom: 0;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+.middle3{
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle2 .m2{
+  font-size: 26px;
+  color: #1f2937;
+  font-style: italic;
+  width: 50%;
+  margin-bottom: 0;
+}
+.middle2 .m3{
+  margin-top: 0%;
+  margin-bottom: 32px;
+  font-weight: bolder;
+  margin-left: 140px;
+}
+.box{
+  display: flex;
+  height: 100px;
+  width: 700px;
+  background-color:  #3882F6;
+  border-radius: 5px 5px 5px 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+.box button{
+  width: 100px;
+  background-color:#3882F6;
+  color: white;
+  border-color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+.box .text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.text p{
+  margin: 0;
+}
+.text .bold{
+  font-weight: bolder;
+}
+.footer{
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  color: white;
+  font-size: 13px;
 }
